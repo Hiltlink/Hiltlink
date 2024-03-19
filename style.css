@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Coiny");
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +16,29 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: linear-gradient(#e66465, #9198e5);
+}
+
+
+p {
+  color: #EEE;
+  padding-top: 30px;
+  font-family: 'Coiny', cursive;
+  text-align: center;
+  font-size: 40px;
+-webkit-animation: bounce .4s ease infinite alternate;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+      text-shadow:
+                  0 5px 0 #ccc,
+                  0 2px 3px rgba(0, 0, 0, 1);  
+  }
+  100% {
+    transform:translateY(-20px);
+    text-shadow:  0 50px 0 #black,
+                  0 0px 20px rgba(0, 0, 0, .8);
+  }
 }
 
 .h1 {
@@ -85,4 +110,57 @@ button:hover {
 
 textarea {
   resize: none;
+}
+
+.form{
+  margin-top: 10px;
+  
+}
+
+.ad0{
+  position: absolute;
+  margin-top: 100rem;
+  margin-right: 3rem;
+}
+
+.ad1{
+  position: absolute;
+  margin-top: 60rem;
+  margin-right: 0rem;
+}
+
+.ad2{
+  position: absolute;
+  margin-top: 82rem;
+  margin-right: 0rem;
+}
+
+.ad3{
+  position: absolute;
+  margin-top: 2rem;
+  margin-right: 30rem;
+}
+
+.ad32{
+  position: absolute;
+  margin-top: 2rem;
+  margin-right: -30rem;
+}
+
+.stats{
+  position: absolute;
+  margin-top: 77rem;
+  margin-right: 1rem;
+}
+
+.ad4{
+  position: absolute;
+  margin-top: 95rem;
+  margin-right: -8rem;
+}
+
+.natben{
+  position: absolute;
+  margin-top: 220rem;
+  margin-right: -8rem;
 }
